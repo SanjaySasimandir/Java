@@ -14,8 +14,7 @@ class Fibonacci {
 			
 		}
 		void calculateFibonacci(){
-			System.out.println(firstNumber+" ");
-			System.out.println(secondNumber+" ");
+			System.out.println(firstNumber+"\n"+secondNumber+" ");
 			for(int i=0;i<n-2;i++){
 				thirdNumber=firstNumber+secondNumber;
 				System.out.println(thirdNumber+" ");
